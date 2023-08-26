@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+
+::-webkit-scrollbar:horizontal {
+  @apply h-2.5;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+}
